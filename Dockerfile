@@ -15,6 +15,7 @@ RUN mkdir -p $INSTALL_PATH
 WORKDIR $INSTALL_PATH
 
 COPY Gemfile* $INSTALL_PATH/
+#COPY Gemfile* /teste-backend/
 
 RUN bundle install
 

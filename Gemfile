@@ -10,6 +10,9 @@ gem 'rails-i18n'
 # bootstrap-rails
 gem "twitter-bootstrap-rails"
 
+#add after to fix turbolinks error
+gem 'turbolinks'
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -23,7 +26,7 @@ gem 'coffee-rails'
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "sqlite3"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
